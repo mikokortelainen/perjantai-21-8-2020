@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+
+  </head>
+  <body>
+
+    <div class="container">
+    <h2>Tehtava 1</h2>
+    <p>Tarkistaa onko luku positiivinen vai negatiivinen.</p>
+    <form>
+    <p>Anna luku: <input type="text" id="lukuX" value=""></p>
+    <button type="button" name="button" onclick="plusVaiMiinus()">Tarkista</button>
+    </form>
+
+    <p> <div id="vastaus1"></div> </p>
+</div>
+
+
+    <div class="container">
+    <h2>Tehtava 2</h2>
+    <p>Muuntaa numeron viikonpäiväksi. (1 = Maanantai, 2 = Tiistai jne...)</p>
+    <form>
+    <p>Anna viikonpäivän numero: <input type="text" id="paivaNum" value=""></p>
+    <button type="button" name="button" onclick="numeroPaivaksi()">Muunna</button>
+    </form>
+
+    <p> <div id="vastaus2"></div> </p>
+</div>
+
+
+<div class="container">
+    <h2>Tehtava 3</h2>
+    <p>Tarkista onko vuosi karkausvuosi.</p>
+    <p>Kirjoita vuosi: <input type="text" id="vuosiLuku" value=""></p>
+    <button type="button" name="button" onclick="karkausTarkistus()">Tarkista</button>
+
+    <p> <div id="vastaus3"></div> </p>
+</div>
+
+
+<div class="container">
+    <h2>Tehtava 4</h2>
+    <p>Laskee lukujen summan ja keskiarvon.</p>
+    <form>
+    <p>Anna 1. luku: <input type="text" id="luku01" value=""><br/>
+    Anna 2. luku: <input type="text" id="luku02" value=""><br/>
+    Anna 3. luku: <input type="text" id="luku03" value=""><br/>
+    Anna 4. luku: <input type="text" id="luku04" value=""><br/>
+    Anna 5. luku: <input type="text" id="luku05" value=""></p>
+    <button type="button" name="button" onclick="keskiarvoLasku()">Laske</button>
+    </form>
+
+    <p> <div id="vastaus4"></div> </p>
+</div>
+
+
+<div class="tehtava5">
+    <h2>Tehtava 5</h2>
+    <p>Tulostaa antamasi luvun kertotaulun</p>
+    <p>Kirjoita luku: <input type="text" id="kerrottava" value=""> </p>
+    <button type="button" id="button" onclick="teeKertotaulu()">Näytä kertotaulu</button>
+    
+    <p> <div id="vastaus5"></div> </p>
+</div>
+
+
+  </body>
+</html>
